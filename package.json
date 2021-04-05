@@ -1,0 +1,26 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "The back end website ecommerce",
+  "main": "index.js",
+  "author": "Le Duc Thinh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "5.11.15",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "shortid": "^2.2.16",
+    "slugify": "^1.4.7"
+  }
+}
